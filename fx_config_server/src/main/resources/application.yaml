@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/amitp-git/fx-data-automation.git
+          username: amitp-git
+          password: ****
+
+server:
+  port: 8888
+debug: true
