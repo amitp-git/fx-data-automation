@@ -3,14 +3,14 @@ spring:
     name: fx-automation-service
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://localhost:8999
   profiles:
     active: dev
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
-    username: ap.cooldemon@gmail.com
-    password: zzz426426
+    username: <your user name>
+    password: <password>
     port: 587
     properties:
       mail:
